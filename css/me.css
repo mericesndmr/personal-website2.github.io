@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: black;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    transition: all 0.5s ease;
+}
+
+#all-container {
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content: stretch;
+    justify-content: flex-start;
+    transition: all 0.5s ease;
+    color: black;
+    padding: 40px 50px;
+}
+
+
+#name {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-transform: lowercase;
+}
+
+#name>a {
+    text-decoration: none;
+}
+
+#name>a:hover {
+    text-decoration: underline;
+}
+
+#name>a>p {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-transform: lowercase;
+}
+
+#dot {
+    color: rgb(191, 48, 48);
+    font-size: 26px;
+}
+
+#container {
+    height: 100vh;
+    margin-top: 40px;
+    padding: 40px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+#container>.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+#container>.text>h3 {
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+    text-transform: lowercase;
+}
+
+#container>.text>p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 1em;
+    color: black;
+    word-wrap: break-word;
+}
+
+#contact {
+    margin-top: 20px;
+    font-size: 0.7em;
+    line-height: 20px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact>.contact-container {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+#contact a {
+    font-weight: normal;
+}
